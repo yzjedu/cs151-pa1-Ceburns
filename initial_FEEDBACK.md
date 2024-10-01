@@ -4,42 +4,42 @@
 
 |Result |Description|
 |------------|-----------------------------------------|
-| **YES-NO** | nested decisions |
-| **YES-NO** | 3 possible directions|
-| **YES-NO** | 3 different Boolean operators|
-| **YES-NO** | choice between specific inputs|
+| **-NO** | nested decisions |
+| **YES-** | 3 possible directions|
+| **-NO** | 3 different Boolean operators|
+| **YES-** | choice between specific inputs|
 
 ##### 🔺Types of values:🔻
 
 |Result |Description|
 |------------|-----------------------------------------|
-| **YES-NO** | decision on integer|
-| **YES-NO** | decision on float|
-| **YES-NO** | decision on string|
+| **YES-** | decision on integer|
+| **YES-** | decision on float|
+| **YES-** | decision on string|
 
 ##### 🔺Other aspects:🔻
 
 |Result |Description|
 |------------|-----------------------------------------|
-| **YES-NO** | output something user input|
-| **YES-NO** | at least 3 user inputs|
-| **YES-NO** | actual storyline|
+| **YES-** | output something user input|
+| **YES-** | at least 3 user inputs|
+| **YES-** | actual storyline|
 
 ##### 🔺 Algorithm format:🔻
 
 |Result |Description|
 |------------|-----------------------------------------|
-| **YES-NO** | well-ordered|
-| **YES-NO** | correct indentation|
-| **YES-NO** | specifies prompts|
-| **YES-NO** | specifies outputs|
-| **YES-NO** | right level of detail|
-| **YES-NO** | Uses if when necessary|
-| **YES-NO** | Uses otherwise-if when necessary|
-| **YES-NO** | Uses otherwise when necessary|
+| **YES-** | well-ordered|
+| **YES-** | correct indentation|
+| **NO-** | specifies prompts|
+| **YES-** | specifies outputs|
+| **YES-** | right level of detail|
+| **YES-** | Uses if when necessary|
+| **-NO** | Uses otherwise-if when necessary|
+| **-NO** | Uses otherwise when necessary|
 
 ### Comments on the grading
 - If there are NOs in this FEEDBACK document, address it according to the description
-- There is nothing to grade in the initial design document 
-- 
-### Grade: N
+- You have included another file instead of the initial design document 
+- Please use the available document in order to Submit properly. 
+### Grade: R
