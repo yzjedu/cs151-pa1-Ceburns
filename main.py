@@ -87,7 +87,34 @@ if map_storage == 'pocket':
 else:
     print('You now have', map_pieces_collected , 'pieces')
 
+#this allows user to select between two treasure chests for map pieces
+chest_choice_two = input('You have come across two treasure chests. Select one. Option 1 or option 2? ')
+if chest_choice_two == '1':
+    print('Lucky you! You get two map pieces!')
+    map_pieces_collected = map_pieces_collected + 2
+elif chest_choice_two == '2':
+    print('Wrong choice! You get nothing')
+else:
+    print('Invalid choice. Select between 1 and 2')
 
+#this asks the user if they want to rest or continue searching for map pieces
+if map_pieces_collected <= 4 or journey_length == 'short':
+    second_choice = input('Would you like to continue searching? ')
+    if second_choice == 'yes':
+        print('You have found two map pieces!')
+        map_pieces_collected = map_pieces_collected + 2
+        print('You have collected' , map_pieces_collected , 'total pieces!')
+        print(name, ', You have searched enough for today. You should rest')
+    elif second_choice == 'no':
+        print('You have', map_pieces_collected, 'pieces.', 'You should rest')
+else:
+    print(name, 'You have',map_pieces_collected, 'pieces.' ,'You cannot continue searching. You should rest')
+
+#This ends the game
+if not map_pieces_collected < map_pieces:
+    print('You have completed the game!')
+else:
+    print('Game over!')
 
 
 
