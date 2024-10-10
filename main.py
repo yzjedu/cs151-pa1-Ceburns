@@ -1,4 +1,13 @@
 
+# Programmer:  Caitlin Burns
+# Course:  CS151, Professor Zee
+# Due Date: 10/9/2024
+# PA: 1
+# Problem Statement: this program designs an adventure video game
+# Data In: character choice, world choice, rest or search, chest 1 or 2
+# Data Out:  map pieces collected
+# Credits: This code is based on the assignment given in the read me file
+
 #this code creates an adventure game with choices for the user to make in order to complete the game
 
 name = input("What is your name? ")
